@@ -1,0 +1,112 @@
+
+
+#app{
+    
+}
+
+.jbDivs {
+    background-color: blue;
+    box-shadow: 1px 1px 1px 8px blue;
+    width: 21.5%;
+    height: 147px;
+    position: absolute;
+    bottom: 225px;
+    right: 364px;
+}
+
+.musicControls {
+    position: absolute;
+    bottom: 140px;
+    right: 374px;
+}
+
+.sliderSpan {
+     background-color: rgba(0,0,0,0);
+    width: 21%;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 374px;
+}
+
+#sliderControl {
+    width: 80%;
+    position: relative;
+    top: 22px;
+    left: 22px;
+}
+
+.musicInfo {
+    background-color: blue;
+    box-shadow: 1px 1px 1px 4px blue;
+    width: 26%;
+    height: 140px;
+    position: absolute;
+    top: 84px;
+    left: 272px;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    font-size: 1.37em;
+}
+
+.musicInfo p {
+    margin-left: 1rem;
+}
+
+.albumDiv {
+    background-color: rgba(120,190,240, 0.1);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+    transform: perspective(200px) rotatey(8deg);
+}
+
+.albumDiv img {
+    width: 400px;
+    height: 400px;
+}
+
+.coinDiv {
+  background-color: rgba(10,120,10,0.7);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 115px;
+    border-radius: 100px;
+}
+
+.coinSlot {
+    background-color: rgba(10,10,120,0.7);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 245px;
+    right: 474px;
+    border-radius: 100px;
+}
+
+.coin {
+    width: 100px;
+    height: 100px;
+}
+
+.buttons {
+    width: 45%;
+    height: 2em;
+    margin-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+    background-color: blue;
+    box-shadow: 1px 1px 1px 4px white;
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
